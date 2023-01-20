@@ -1,0 +1,36 @@
+body {
+    background-color: darksalmon;
+}
+
+#alert {
+    display: inline;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding: 2px 6px;
+    font-weight: bold;
+    transition-duration: 200ms;
+}
+
+#word {
+    background-color: darksalmon;
+    text-align: center;
+    font-weight: bold;
+    border:none;
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+ }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #gameDiv {
+      text-align: center;
+  }
+}
